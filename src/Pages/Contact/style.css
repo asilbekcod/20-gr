@@ -1,0 +1,9 @@
+.input:focus{
+    border-color: #3fbbc0 !important;
+    color: #212529;
+    background-color: #fff;
+    outline: 0;
+}
+.css-1lv7yzw-MuiGrid-root{
+    margin-left: -11px !important;
+}

@@ -1,0 +1,186 @@
+#HomCarImg1 {
+    background-image: url(../../assets/img/slide/slide-1.jpg);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-position-y: center;
+}
+
+#HomCarImg2 {
+    background-image: url(../../assets/img/slide/slide-2.jpg);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-position-y: center;
+}
+
+#HomCarImg3 {
+    background-image: url(../../assets/img/slide/slide-3.jpg);
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+    border-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-position-y: center;
+}
+
+.carousel-control-prev {
+    background: rgba(63, 187, 192, 0.8) !important;
+    max-width: 54px;
+    max-height: 54px;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px !important;
+    margin-left: 10px;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.carousel-control-next {
+    background: rgba(63, 187, 192, 0.8) !important;
+    max-width: 54px;
+    max-height: 54px;
+    border-radius: 50%;
+    font-size: 20px;
+    padding: 10px !important;
+    margin-right: 10px;
+    align-items: center;
+    margin-top: 15%;
+}
+
+.carousel-indicators [data-bs-target] {
+    background: #fff;
+    max-width: 12px;
+    min-height: 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    overflow: hidden;
+    border: 0;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.carousel-indicators .active {
+    background-color: #3fbbc0 !important;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.image{
+    display: block;
+    width: 100%;
+    height: 100% !important;
+    box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #3fbbc0;
+    overflow: hidden;
+    width: 93%;
+    height: 0;
+    transition: .2s ease;
+    box-shadow: 0 0 29px 0 rgb(68 88 144 / 12%);
+    border-radius: 10px;
+    margin-left: 3.5%;
+}
+
+.container:hover .overlay {
+    height: 100%;
+}
+
+@media screen and (max-width:900px) {
+    .carousel-control-prev {
+        background: rgba(63, 187, 192, 0.8) !important;
+        max-width: 54px;
+        max-height: 54px;
+        border-radius: 50%;
+        font-size: 20px;
+        padding: 10px !important;
+        margin-left: 10px;
+        align-items: center;
+        margin-top: 16%;
+    }
+
+    .carousel-control-next {
+        background: rgba(63, 187, 192, 0.8) !important;
+        max-width: 54px;
+        max-height: 54px;
+        border-radius: 50%;
+        font-size: 20px;
+        padding: 10px !important;
+        margin-right: 10px;
+        align-items: center;
+        margin-top: 16%;
+    }
+}
+
+@media screen and (max-width:900px) {
+    .carousel-control-prev {
+        background: rgba(63, 187, 192, 0.8) !important;
+        max-width: 54px;
+        max-height: 54px;
+        border-radius: 50%;
+        font-size: 20px;
+        padding: 10px !important;
+        margin-left: 10px;
+        align-items: center;
+        margin-top: 30%;
+    }
+
+    .carousel-control-next {
+        background: rgba(63, 187, 192, 0.8) !important;
+        max-width: 54px;
+        max-height: 54px;
+        border-radius: 50%;
+        font-size: 20px;
+        padding: 10px !important;
+        margin-right: 10px;
+        align-items: center;
+        margin-top: 30%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    #HomCarImg1 {
+        padding-bottom: 13%;
+    }
+
+    #HomCarImg2 {
+        padding-bottom: 13%;
+    }
+
+    #HomCarImg3 {
+        padding-bottom: 3%;
+    }
+}
+input::placeholder{
+    padding: 10px;
+}
+textarea::placeholder{
+    padding: 8px;
+}

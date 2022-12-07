@@ -1,0 +1,36 @@
+export const Navbar =[
+    {
+        NavYoz1:"Home",
+        ok:false,
+        hr:'#home'
+    },
+    {
+        NavYoz1:"about",
+        ok:false,
+        hr:'#about'
+    },
+    {
+        NavYoz1:"Services",
+        ok:false,
+        hr:'#servise'
+    },
+    {
+        NavYoz1:"Departments",
+        ok:false,
+        hr:'#depart'
+    },
+    {
+        NavYoz1:"DOCTORS",
+        ok:false,
+        hr:'#doctors'
+    },
+    {
+        NavYoz1:"Drop Down",
+        ok:true
+    },
+    {
+        NavYoz1:"CONTACT",
+        ok:false,
+        hr:'#contact'
+    },
+]

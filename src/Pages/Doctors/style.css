@@ -1,0 +1,48 @@
+.doctor{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 40px;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+    background: rgba(255, 255, 255, 0.85);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.doc:hover .doctor{
+    opacity: 1;
+}
+.doclink{
+    transition: color 0.3s;
+    color: #555555 !important;
+    margin: 0 10px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.doclink:hover{
+    color:#3fbbc0 !important;
+}
+
+.css-8wqzlf-MuiGrid-root{
+    margin-left: -11px !important;
+}
+
+/* .css-yw020d-MuiAccordionSummary-expandIconWrapper:hover{
+    color:"red" !important;
+}
+.css-18wihhb-MuiButtonBase-root-MuiAccordionSummary-root .MuiAccordionSummary-expandIconWrapper.Mui-expanded{
+    color: red !important;
+} */
+
+#dd:focus .icon{
+    color:#3fbbc0 !important;
+}
+#dd:focus{
+    color:#3fbbc0 !important;
+}
+#dd:hover .icon{
+    color:#3fbbc0 !important;
+}
